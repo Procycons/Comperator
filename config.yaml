@@ -1,0 +1,32 @@
+application:
+  languages: ["en", "de"]
+  root-folder: "results"
+  max-pages: 2
+  llm_model_name: "Meta-Llama-3-70B-Instruct"
+
+competitors:
+  - name: 'competitor1'
+    allowed_domains: ['competitor1.com']
+    start_urls: ['https://www.competitor1.com/']
+  - name: 'competitor2'
+    allowed_domains: ['competitor2.com']
+    start_urls: ['https://competitor2.com/']
+
+product:
+  name: "IntelliSight AI"
+  description: |
+    IntelliSight AI is a cutting-edge, AI-powered Business Intelligence (BI) application designed 
+    to revolutionize data analytics and decision-making processes for businesses of all sizes. 
+    With its advanced features and intuitive interface, IntelliSight AI empowers users to harness 
+    the full potential of their data and gain actionable insights. Key features include:
+    - AI-driven data discovery: IntelliSight AI automatically uncovers hidden patterns, trends, 
+    and anomalies in your data, providing valuable insights that traditional BI tools might miss.
+    - Natural Language Processing (NLP): Users can interact with IntelliSight AI using natural language queries, 
+    making it easy for non-technical users to access and analyze data without the need for complex query languages.
+    - Predictive analytics: Leveraging machine learning algorithms, IntelliSight AI enables users to forecast future trends, 
+    anticipate customer behavior, and make data-driven decisions with confidence.
+    - Real-time data visualization: With its dynamic and interactive dashboards, IntelliSight AI allows users to 
+    visualize data in real-time, facilitating quick understanding and effective communication of insights across 
+    the organization.
+    - Seamless data integration: IntelliSight AI seamlessly connects to various data sources, including databases, 
+    cloud services, and APIs, ensuring a comprehensive view of your business data.

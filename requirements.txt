@@ -1,0 +1,7 @@
+requests==2.32
+python-dotenv==1.0.1
+wordcloud==1.9.3
+beautifulsoup4==4.12.3
+openai==1.35.13
+langdetect==1.0.9
+
