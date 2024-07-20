@@ -4,4 +4,7 @@ wordcloud==1.9.3
 beautifulsoup4==4.12.3
 openai==1.35.13
 langdetect==1.0.9
-
+pyyaml==6.0.1
+streamlit==1.36.0
+streamlit-option-menu==0.3.13
+nltk==3.8.1
